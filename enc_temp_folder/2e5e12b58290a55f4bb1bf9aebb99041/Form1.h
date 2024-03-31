@@ -241,7 +241,7 @@ namespace CppCLRWinFormsProject {
 	private: System::Void getBtn_Click(System::Object^ sender, System::EventArgs^ e) {
 		const int numBalls = 49, numSwaps = 1000000;
 		int i, swapAt, swapWith, temp, nums[numBalls];
-		srand((int)time(0));                               // seed rand() with current time in seconds
+		srand((int)time(0));                          // seed rand() with current time in seconds
 		for (i = 0; i < numBalls; i++) nums[i] = i + 1;    // zero-indexed array of one-indexed lottery balls
 		for (i = 0; i < numSwaps; i++)
 		{
