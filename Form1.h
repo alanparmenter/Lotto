@@ -215,6 +215,8 @@ namespace CppCLRWinFormsProject {
 			this->Controls->Add(this->pictureBox1);
 			this->Cursor = System::Windows::Forms::Cursors::Default;
 			this->MaximizeBox = false;
+			this->MaximumSize = System::Drawing::Size(491, 290);
+			this->MinimumSize = System::Drawing::Size(491, 290);
 			this->Name = L"Form1";
 			this->Text = L"Lotto Number Generator";
 			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
